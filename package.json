@@ -1,0 +1,16 @@
+{
+  "name": "dark-mode-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "tailwindcss -i src/css/tailwind.css -o dist/css/tailwind.css",
+    "css:watch": "tailwindcss -i src/css/tailwind.css -o dist/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "Kavin Desi Valli <mail@kavin.me> (https://kavin.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
